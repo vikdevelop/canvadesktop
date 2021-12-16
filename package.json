@@ -1,23 +1,24 @@
-{
+  {
   "name": "canvadesktop",
-  "version": "0.0.1",
-  "license": "MIT",
-  "description": "Canva Desktop App use electron",
-  "author": "vikdevelop",
+  "version": "1.0.0",
+  "description": "Electron wrapper for Canva Desktop",
   "main": "src/main.js",
   "scripts": {
-    "postinstall": "install-app-deps",
-    "pack": "build --dir",
-    "start": "electron .",
-    "dist": "build ."
+    "start": "electron ."
   },
-  
-  "dependencies": {
-    "app": "latest",
-    "electron-packager": "latest"
-  },
+  "repository": "https://github.com/vikdevelop/canvadesktop",
+  "keywords": [
+    "Electron",
+    "linux",
+    "canva"
+  ],
+  "author": "vikdevelop",
+  "license": "MIT",
   "devDependencies": {
-    "electron": "latest",
-    "electron-builder": "latest"
+    "electron": "latest"
+ },
+  "dependencies": {
+    "nopt": "latest",
+    "yauzl": "latest"
   }
 }
