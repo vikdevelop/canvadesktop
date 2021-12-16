@@ -13,7 +13,7 @@ source=("git+https://github.com/vikdevelop/canvadesktop")
 sha256sums=('SKIP')
 
 prepare() {
-	cd "$pkgname"
+  cd "$pkgname"
   echo "cd /usr/share/canvadesktop && npm start" > canvadesktop.sh
   chmod +x canvadesktop.sh
 }
