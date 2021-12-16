@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Canva
+Icon=canva
+Type=Application
+Categories=Internet
+Exec=canvadesktop.sh
