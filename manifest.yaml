@@ -33,12 +33,13 @@ modules:
     - mkdir /app/main
     - cp -R canva/canva-linux-x64/* /app/main
     - install -D -t /app/bin canva.sh
+    - install -D -t /app/share/applications flatpak/com.github.vikdevelop.canvadesktop.desktop
+    - install -D -t /app/share/metainfo flatpak/com.github.vikdevelop.canvadesktop.metainfo.xml
+    - install -D -t /app/share/icons/hicolor/128x128/apps resources/com.github.vikdevelop.canvadesktop.png
     sources:
-      - type: dir
-        path: /mnt/sda1/General/apps/canva
-      #- type: archive
-        #url: https://github.com/vikdevelop/photopea_app/archive/refs/tags/2.1.tar.gz
-        #sha256: 797b8cec4c134e2d7e18ee51fa7cd46e10d6877a6308d11dfaa2bd2c134c75a0
+      - type: archive
+        url: https://github.com/vikdevelop/canvadesktop/archive/refs/tags/1.1.tar.gz
+        sha256: cde9d5145629c6d8265c317528d8ead9f6d8dc66ea9d3f2eb3fac1f06901c830
       - type: script
         dest-filename: canva.sh
         commands:
