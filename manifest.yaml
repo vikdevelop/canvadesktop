@@ -29,7 +29,7 @@ modules:
     build-commands:
     - yarn
     - mkdir canva
-    - yarn electron-packager ./ canva --platform=linux --arch=x64 --electron-version=15.4.1 --out=penpot/
+    - yarn electron-packager ./ canva --platform=linux --arch=x64 --electron-version=15.4.1 --out=canva/
     - mkdir /app/main
     - cp -R canva/canva-linux-x64/* /app/main
     - install -D -t /app/bin canva.sh
@@ -43,4 +43,4 @@ modules:
       - type: script
         dest-filename: canva.sh
         commands:
-          - zypak-wrapper.sh /app/main/penpot "$@"
+          - zypak-wrapper.sh /app/main/canva "$@"
