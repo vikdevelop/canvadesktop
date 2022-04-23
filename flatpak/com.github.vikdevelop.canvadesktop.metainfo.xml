@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+    <id>com.github.vikdevelop.canvadesktop</id>
+    <launchable type="desktop-id">com.github.vikdevelop.canvadesktop.desktop</launchable>
+    <name>Canva</name>
+    <summary>Photography editor</summary>
+    <metadata_license>CC0-1.0</metadata_license>
+    <project_license>MIT</project_license>
+
+    <description>
+        <p>Canva is a free graphic design platform that allows you to easily create invitations, business cards, flyers, lesson plans, Zoombackgrounds, and more using professionally designed templates.</p>
+        <p>You can even upload your own photos and add them to Canva's templates using a drag and drop interface. It's like having a basic version of Photoshop that's free and doesn't require extensive photo editing knowledge to use.</p>
+    </description>
+
+    <url type="homepage">https://canva.com</url>
+    <url type="help">https://www.canva.com/help/</url>
+
+    <screenshots>
+        <screenshot type="default">
+            <image>https://raw.githubusercontent.com/vikdevelop/canvadesktop/main/screenshots/canva_home.png</image>
+        </screenshot>
+        <screenshot>
+            <image>https://raw.githubusercontent.com/vikdevelop/canvadesktop/main/screenshots/canva_editation.png</image>
+        </screenshot>
+    </screenshots>
+
+    <content_rating type="oars-1.1"/>
+
+    <categories>
+        <category>Graphics</category>
+        <category>Photography</category>
+    </categories>
+
+    <releases>
+        <release version="1.1" date="2022-04-23">
+        </release>
+  </releases>
+</component>
