@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Canva
+Icon=com.github.vikdevelop.canvadesktop
+Type=Application
+Exec=canva.sh
+Categories=Graphics
+Comment=Photography editor
+Comment[cs]=Editor fotografií
+Comment[ua]=Фоторедактор
