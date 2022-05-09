@@ -9,8 +9,7 @@ sdk-extensions:
   - org.freedesktop.Sdk.Extension.node16
 finish-args:
   - --share=ipc
-  - --socket=fallback-x11
-  - --socket=wayland
+  - --socket=x11
   - --share=network
   - --filesystem=xdg-download
   - --device=dri
