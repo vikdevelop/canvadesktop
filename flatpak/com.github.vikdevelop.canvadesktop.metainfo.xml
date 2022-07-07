@@ -15,6 +15,7 @@
 
     <url type="homepage">https://canva.com</url>
     <url type="help">https://www.canva.com/help/</url>
+    <url type="vcs-browser">https://github.com/vikdevelop/canvadesktop</url>
 
     <screenshots>
         <screenshot type="default">
