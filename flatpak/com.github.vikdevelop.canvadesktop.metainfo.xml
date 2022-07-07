@@ -10,6 +10,7 @@
     <description>
         <p>Canva is a free graphic design platform that allows you to easily create invitations, business cards, flyers, lesson plans, Zoombackgrounds, and more using professionally designed templates.</p>
         <p>You can even upload your own photos and add them to Canva's templates using a drag and drop interface. It's like having a basic version of Photoshop that's free and doesn't require extensive photo editing knowledge to use.</p>
+        <p>NOTE: this is a wrapper of Canva web app.</p>
     </description>
 
     <url type="homepage">https://canva.com</url>
