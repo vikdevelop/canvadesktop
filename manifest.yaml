@@ -1,12 +1,12 @@
 app-id: com.github.vikdevelop.canvadesktop
 runtime: org.freedesktop.Platform
-runtime-version: '21.08'
+runtime-version: '24.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: "21.08"
+base-version: "24.08"
 command: canva.sh
 sdk-extensions:
-  - org.freedesktop.Sdk.Extension.node16
+  - org.freedesktop.Sdk.Extension.node22
 finish-args:
   - --share=ipc
   - --socket=x11
@@ -15,7 +15,7 @@ finish-args:
   - --filesystem=xdg-pictures
   - --device=dri
 build-options:
-  append-path: /usr/lib/sdk/node16/bin
+  append-path: /usr/lib/sdk/node22/bin
   env:
     NPM_CONFIG_LOGLEVEL: info
 modules:
